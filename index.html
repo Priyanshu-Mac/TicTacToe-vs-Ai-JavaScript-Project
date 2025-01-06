@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Tic Tac Toe (v/s Ai)</h1>
+        <div class="scoreboard">
+            <h2>Scoreboard</h2>
+            <p>You: <span id="score_o">0</span></p>
+            <p>Ai: <span id="score_x">0</span></p>
+            <p>Turn: <span id="whose_turn">O (You)</span></p>
+            <p id="winner_announcement"></p>
+        </div>
+
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset_btn">Reset Game</button>
+        <button id="new_game_btn">New Game</button>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
