@@ -119,8 +119,6 @@ const newGame = () => {
 newGameBtn.addEventListener("click", newGame)
 resetBtn.addEventListener("click", resetGame);
 
-startGame();
-
 const aiMove = () => {
 
     setTimeout(() => {
@@ -230,4 +228,6 @@ const aiMove = () => {
             }
         };
     }, 600);  //600ms delay to make user experience better
-}
+};
+
+startGame();
